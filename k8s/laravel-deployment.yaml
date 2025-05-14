@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: laravel
-          image: todoapp-app-1:latest # Make sure this image is available to your cluster
+          image: todoapp-app:latest # Make sure this image is available to your cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9000
