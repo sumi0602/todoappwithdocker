@@ -41,7 +41,7 @@ services:
         environment:
             MYSQL_DATABASE: laravel
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_USER: sail
+            MYSQL_USER: root
             MYSQL_PASSWORD: secret
         volumes:
             - 'dbdata:/var/lib/mysql'
